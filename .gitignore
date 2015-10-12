@@ -1,0 +1,14 @@
+*.vspscc
+*.DotSettings
+*.user
+*.suo
+**/bin/*
+**/obj/*
+/build/*
+/packages/*
+/.fake/*
+[Rr]eferenced[Aa]ssemblies
+.paket/paket.exe
+paket.lock
+[Bb]uild
+[Tt]est[Ss]cripts
