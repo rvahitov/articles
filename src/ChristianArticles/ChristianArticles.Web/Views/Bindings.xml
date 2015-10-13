@@ -1,0 +1,8 @@
+﻿<bindings>
+  <element name="a">Html.ActionLink("child::*", "@action", "@controller", new RouteValueDictionary{{"@route-*"}}, new Dictionary&lt;string,object&gt;{{"@*"}})</element>
+  <element name="a">Html.ActionLink("child::*", "@action", new RouteValueDictionary{{"@route-*"}}, new Dictionary&lt;string,object&gt;{{"@*"}})</element>
+  <element name="a">Html.ActionLink("@text", "@action", "@controller", new RouteValueDictionary{{"@route-*"}}, new Dictionary&lt;string,object&gt;{{"@*"}})</element>
+  <element name="a">Html.ActionLink("@text", "@action", new RouteValueDictionary{{"@route-*"}}, new Dictionary&lt;string,object&gt;{{"@*"}})</element>
+  <element name="bundle">Styles.Render("@styles")</element>
+  <element name="bundle">Scripts.Render("@scripts")</element>
+</bindings>

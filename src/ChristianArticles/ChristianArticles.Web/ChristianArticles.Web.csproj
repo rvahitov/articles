@@ -70,6 +70,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\SparkConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -77,6 +78,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Views\Bindings.xml" />
     <Content Include="Web.config.install.xdt">
       <Paket>True</Paket>
     </Content>
@@ -157,15 +159,14 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="Views\Web.config" />
-    <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_global.spark">
       <Paket>True</Paket>
     </Content>
-    <Content Include="Views\Shared\Error.cshtml" />
-    <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
+    <None Include="Views\Shared\Error.spark" />
+    <Content Include="Views\Shared\Application.spark" />
+    <Content Include="Views\Home\About.spark" />
+    <Content Include="Views\Home\Contact.spark" />
+    <Content Include="Views\Home\Index.spark" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        Christian Articles <use content="title"></use>
+    </title>
+    <bundle styles="~/Content/css"/>
+    <bundle scripts="~/bundles/modernizr"/>
+    <use content="header"></use>
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a action="Index" controller="Home" route-area="" class="navbar-brand">Application name</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a action="Index" controller="Home">Home</a></li>
+                    <li><a action="About" controller="Home">About</a></li>
+                    <li><a action="Contact" controller="Home">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        <use content="mainBody"/>
+        <hr />
+        <footer>
+            <use content="mainFooter"></use>
+        </footer>
+    </div>
+    <bundle scripts="~/bundles/jquery"/>
+    <bundle scripts="~/bundles/bootstrap"/>
+    <use content="scripts"></use>
+    
+</body>
+</html>

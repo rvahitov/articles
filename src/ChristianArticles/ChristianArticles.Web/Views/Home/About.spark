@@ -1,0 +1,8 @@
+﻿<var title="'About'"/>
+<content name="title"> - ${title}</content>
+<content name="mainBody">
+    <h2>${title}.</h2>
+    <h3>${ViewBag.Message}</h3>
+
+    <p>Use this area to provide additional information.</p>
+</content>
