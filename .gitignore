@@ -12,3 +12,4 @@
 paket.lock
 [Bb]uild
 [Tt]est[Ss]cripts
+*.swp
